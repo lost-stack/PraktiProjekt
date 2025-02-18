@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: lighter;
+    white-space: nowrap;
+  }
+  body {
+    font-family: Verdana, sans-serif;
+    height: 600vh;
+    background: linear-gradient(to bottom, #1e7025, #5b701f,  #721e1e, #2c3e50e3);
+    width: 102vh;
+  }
+  h3 {
+    position: fixed;
+    right: 0px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-size: large;
+    padding: 5px;
+    margin: 10px;
+  }
+  h3:hover {
+    font-size: larger;
+    margin: 9px;
+  }
+  .content {
+    border: 0px 20px;
+  }

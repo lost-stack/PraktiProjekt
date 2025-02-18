@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {background: linear-gradient(to top, #641a1a, #162f49e3) !important;}
+    
+    </style>
+  </head>
+  <body style="height: 103vh">
+    <header id="header">
+      <button onclick="Menu()" class="btnLogo"><img src="/KundenWebseite2/img/Logo.png" /></button>  
+      <div class="menuKon" id="menu">
+          <a href="home.html">Home</a>
+          <a href="offers.html" id="offers">Angebot</a>
+          <a href="us.html" id="us">Über uns</a>
+          <a href="contact.html" class="activeSide" id="contact">Kontakt</a>
+          <button onclick="openLanguageMenu()" class="btnLang"><img class="flag" id="language" src="/KundenWebseite2/img/gerFlag.png" /></button>
+      </div>
+    </header>
+     <div class="content">
+      <!-- Inhalt "Contact"-->
+      <h1 id="contactH1">Kontakt</h1>
+      <div class="contactDiv">
+        <main>
+          <section class="contact-form">
+            <h2>Kontaktformular</h2>
+            <form action="send_email.php" method="POST">
+              <div>
+                <label for="name">Vor-/Nachname:</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div>
+                <label for="email">Eigene E-Mail Adresse:</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div>
+                <label for="message">Nachricht:</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                  style="font-size: large"
+                ></textarea>
+              </div>
+              <button type="submit">Nachricht senden</button>
+            </form>
+          </section>
+          <section class="contact-info">
+            <h2>Unsere Kontaktinformationen</h2>
+            <p>
+              Wenn du Fragen hast oder mehr über unsere Dienstleistungen
+              erfahren möchtest, kontaktiere uns bitte!
+            </p>
+            <ul>
+              <li>
+                <strong>Adresse:</strong> Berliner Straße 12c, 12043 Berlin
+              </li>
+              <li><strong>Telefon:</strong> 030 546 1874</li>
+              <li><strong>E-Mail:</strong> Verschachtelt@GmbH.com</li>
+            </ul>
+          </section>
+        </main>
+      </div>
+
+      <div class="footer_con">
+        <div class="social-media">
+          <a href="https://www.x.com/"><img src="/KundenWebseite2/img/twitter.png" /></a>
+          <a href="https://www.facebook.com/"
+            ><img src="/KundenWebseite2/img/facebook.png"
+          /></a>
+          <a href="https://www.instagram.com/"><img src="/KundenWebseite2/img/inster.png" /></a>
+        </div>
+        <div class="links">
+          <a href="impressum.html"><p>Impressum</p></a>
+          <p></p>
+          <a href="agb.html"><p>AGB</p></a>
+        </div>
+      </div>
+    </div>
+    <script src="lang.js"></script>
+    <script src="langu.js"></script>
+    <script src="menuClOp.js"></script>
+  </body>
+</html>
