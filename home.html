@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">  
+      <button onclick="Menu()" class="btnLogo"><img src="/KundenWebseite2/img/Logo.png" /></button>  
+      <div class="menuKon" id="menu">
+        <a href="home.html" class="activeSide">Home</a>
+        <a href="offers.html" id="offers">Angebot</a>
+        <a href="us.html" id="us">Über uns</a>
+        <a href="contact.html" id="contact">Kontakt</a>
+        <button onclick="openLanguageMenu()" class="btnLang"><img class="flag" id="language" src="/KundenWebseite2/img/gerFlag.png" /></button>
+      </div>
+    </header>
+    <div class="content">
+      <!-- Inhalt "Home"-->
+      <h1>Home</h1>
+      <div class="homeDiv">
+        <div>
+          <p style="font-size: 200%" id="homeP1">Ostern steht vor der Tür?</p>
+          <p style="font-size: 170%; margin-top: 30px" id="homeP1">
+            bei Verschachtelt GmbH finden Sie alle art von Pekaten Egal ob
+            kleine Überraschung oder große Lieferung.
+          </p>
+          </p>
+        </div>
+        <img src="/KundenWebseite2/img/PaketKatze.png" class="homeImg1" />
+        <img src="/KundenWebseite2/img/PaketBildGross.png" class="homeImg2" />
+        <img src="/KundenWebseite2/img/osterAngebot.png" class="homeImg3" id="easter"/>
+      </div>
+
+      <div class="footer">
+        <div class="social-media">
+          <a href="https://www.x.com/"><img src="/img/twitter.png" /></a>
+          <a href="https://www.facebook.com/">
+            <img src="/KundenWebseite2/img/facebook.png"
+          /></a>
+          <a href="https://www.instagram.com/"><img src="/KundenWebseite2/img/inster.png" /></a>
+        </div>
+        <div class="links">
+          <a href="impressum.html"><p>Impressum</p></a>
+          <a href="agb.html"><p>AGB</p></a>
+        </div>
+      </div>
+    </div>
+    <script src="lang.js"></script>
+    <script src="langu.js"></script>
+    <script src="menuClOp.js"></script>
+  </body>
+</html>
