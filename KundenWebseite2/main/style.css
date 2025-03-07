@@ -115,13 +115,13 @@ h1 {
   flex-direction: column;
   align-items: center;
   color: azure;
-  width: 203vh;
+  width: 100%;
   background-color: #24384d;
 }
 .homeDiv {
   margin-top: 20px;
   background-color: #95a2b1;
-  width: 203vh;
+  width: 100%;
   height: 1200px;
   padding: 0px;
   position: relative;
@@ -161,7 +161,7 @@ h1 {
 .offersDiv {
   margin-top: 20px;
   background-color: #95a2b1;
-  width: 203vh;
+  width: 100%;
   height: 1750px;
   padding: 15px;
   position: relative;
@@ -206,7 +206,7 @@ h1 {
 .usDiv {
   margin-top: 20px;
   background-color: #95a2b1;
-  width: 203vh;
+  width: 100%;
   min-height: 200px;
   padding: 15px;
   position: relative;
@@ -214,7 +214,7 @@ h1 {
 .contactDiv {
   margin-top: 20px;
   background-color: #95a2b1;
-  width: 203vh;
+  width: 100%;
   min-height: 200px;
   padding: 15px;
   position: relative;
@@ -284,7 +284,7 @@ h1 {
   color: white;
   bottom: -120px;
   height: 120px;
-  width: 203vh;
+  width: 100%;
   position: absolute;
 }
 .social-media {
