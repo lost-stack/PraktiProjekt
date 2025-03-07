@@ -13,7 +13,7 @@ body {
   font-family: Verdana, sans-serif;
   height: 600vh;
   background: linear-gradient(to top, #85a52c, #156b1c, #721e1e, #2c3e50e3);
-  width: 102vh;
+  width: 100vh;
 }
 /*body::-webkit-scrollbar {
   width: 0px;
